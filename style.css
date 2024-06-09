@@ -1,0 +1,115 @@
+body {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     background-color: #f2f2f2;
+     background: #f2f2f2 url('image.jpg') no-repeat center;
+     background-size: cover;
+    
+    
+  }
+header {
+    background-image: url('images.jpeg');
+    background-size:contain;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0; 
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#about img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 200%;
+}
+p {
+    font-size: 18px;
+  }
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .skill {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: perspective(1000px) rotateY(0deg);
+    transition: transform 0.5s;
+  }
+  
+  .skill:hover {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+  
+  .skill-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+.project {
+    margin-bottom: 20px;
+}
+
+.project {
+    border: 0px solid #08b923;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+   
+  }
+  
+  .project img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+footer {
+    font-size: 12px;
+    background: linear-gradient(to right, #f2f2f2, #ddd);
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    color: #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+#resume, #contact {
+    font-size: 30px;
+    color: #e7e3e3;
+  }
+ 
+  
